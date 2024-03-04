@@ -31,12 +31,16 @@ if [[ $choice -ge 1 ]]; then
 	cd source
 	chmod +x ./cheat.sh
 	printf "Installing Please Wait ...." | lolcat
+	printf "\n"
 	sudo mv cheat.sh /usr/bin/cheat
 	cd ..
 	cd ..
 	rm -rf CheatCLI
 	n=$(tput cols)
-  for ((i = 0; i < $n/10; i++)); do
-    printf "========>> " | lolcat
+	for ((i = 0; i < $n / 10; i++)); do
+		printf "========>> " | lolcat
+	done
+	printf "\n"
 	printf "CheatCLI has been installed successfully" | lolcat
+	printf "\n"
 fi
