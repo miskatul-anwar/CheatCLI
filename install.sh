@@ -35,4 +35,8 @@ if [[ $choice -ge 1 ]]; then
 	cd ..
 	cd ..
 	rm -rf CheatCLI
+	n=$(tput cols)
+  for ((i = 0; i < $n/10; i++)); do
+    printf "========>> " | lolcat
+	printf "CheatCLI has been installed successfully" | lolcat
 fi
