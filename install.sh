@@ -26,9 +26,12 @@ case $choice in
 	;;
 esac
 if [[ $choice -ge 0 ]]; then
+	clear
+	cd source
 	chmod +x ./cheat.sh
 	printf "Installing Please Wait ...." | lolcat
 	sudo mv cheat.sh /usr/bin/cheat
+	cd ..
 	cd ..
 	rm -rf CheatCLI
 fi
