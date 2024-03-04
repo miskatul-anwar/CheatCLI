@@ -25,8 +25,9 @@ case $choice in
 	exit
 	;;
 esac
-if [[ $choice -ge 0 ]]; then
+if [[ $choice -ge 1 ]]; then
 	clear
+	figlet CheatCLI
 	cd source
 	chmod +x ./cheat.sh
 	printf "Installing Please Wait ...." | lolcat
