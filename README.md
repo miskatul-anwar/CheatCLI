@@ -2,7 +2,7 @@
 
 A shell based tool for cheat sheets and important commands
 
-# Install CheatCLI
+# Install CheatCLI 🚀
 
 ```bash
 git clone https://github.com/miskatul-anwar/CheatCLI.git
@@ -11,7 +11,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-## Dependencies
+## Dependencies 🧺
 
 - git
 - lolcat
