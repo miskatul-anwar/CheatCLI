@@ -4,7 +4,7 @@ A shell based tool for cheat sheets and important commands
 
 # Install CheatCLI 🚀
 
--copy and paste the below commands
+- copy and paste the below commands
 
 ```bash
 git clone https://github.com/miskatul-anwar/CheatCLI.git
