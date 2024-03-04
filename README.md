@@ -19,3 +19,11 @@ chmod +x ./install.sh
 - git
 - lolcat
 - figlet
+- python3-pip
+
+## Usage 📚
+
+```bash
+#cheat <key-to-search>
+cheat nvim
+```
