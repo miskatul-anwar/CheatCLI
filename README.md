@@ -1,6 +1,7 @@
 # CheatCLI
 
 A shell based tool for cheat sheets and important commands
+![CheatCLI](i.png)
 
 # Install CheatCLI 🚀
 
